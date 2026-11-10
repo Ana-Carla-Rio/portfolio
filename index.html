@@ -1,125 +1,18 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfólio | Ana Carla Rio Gaia</title>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Portfólio de Ana Carla Rio Gaia: Gestão de TI, processos e prototipação com apoio de IA."><title>Ana Carla Rio Gaia | Tecnologia & IA</title>
 <style>
-:root{--bg:#f4f6fa;--ink:#182536;--muted:#657386;--navy:#142b45;--blue:#2867d8;--line:#dce3ec;--white:#fff;--mint:#e9f7f1;--gold:#f3c969}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
-header{background:linear-gradient(120deg,#10243a,#1c4268);color:#fff;padding:54px 22px 42px}
-.wrap{max-width:1060px;margin:auto;padding:0 22px}
-.kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:#b8c9df;font-weight:700}
-h1{font-size:clamp(32px,6vw,54px);line-height:1.05;margin:14px 0}
-header p{max-width:700px;color:#dce7f3;font-size:18px}
-.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.tag{border:1px solid #58708b;border-radius:30px;padding:6px 12px;font-size:13px;color:#e7eef7}
-nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:2}
-nav .wrap{display:flex;gap:22px;overflow:auto;padding-top:12px;padding-bottom:12px}
-nav a{color:var(--navy);text-decoration:none;font-size:14px;font-weight:650;white-space:nowrap}
-section{padding:34px 0}.section-title{font-size:25px;margin:0 0 8px;color:var(--navy)}
-.lead{color:var(--muted);margin:0 0 22px;max-width:780px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
-.card{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 5px 18px #152a4210}
-.card h3{margin:0 0 8px;color:var(--navy);font-size:18px}.card p{margin:0;color:var(--muted)}
-.pill{display:inline-block;background:#edf3ff;color:#2457a5;padding:4px 9px;border-radius:20px;font-size:12px;font-weight:700;margin-bottom:12px}
-.notice{border-left:4px solid var(--gold);background:#fff9e9;padding:14px 16px;border-radius:8px;color:#5d4b21}
-.demo{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;max-width:800px}
-label{display:block;font-weight:700;margin:13px 0 6px}
-input,select,textarea{width:100%;border:1px solid #cbd5e1;border-radius:10px;padding:12px;font:inherit;background:#fff;color:var(--ink)}
-textarea{min-height:100px;resize:vertical}
-button{background:var(--blue);color:#fff;border:0;border-radius:10px;padding:12px 18px;font-weight:750;font-size:15px;cursor:pointer;margin-top:14px}
-button:hover{filter:brightness(.94)}
-.result{margin-top:18px;background:#f2f6fc;border:1px solid #d7e3f5;border-radius:12px;padding:18px;display:none}
-.result h3{margin-top:0;color:var(--navy)}.result ul{padding-left:20px}
-.small{font-size:13px;color:var(--muted)}
-.steps{counter-reset:n}.step{position:relative;padding-left:42px;margin:14px 0}.step:before{counter-increment:n;content:counter(n);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:#eaf1ff;color:#2457a5;display:grid;place-items:center;font-weight:800}
-footer{background:#10243a;color:#dce7f3;padding:26px 0;margin-top:20px}footer p{margin:4px 0}
-a.buttonlink{display:inline-block;margin-top:12px;color:#fff;background:#2867d8;padding:10px 14px;border-radius:9px;text-decoration:none;font-weight:700}
-@media(max-width:600px){header{padding:40px 0 32px}.demo{padding:16px}}
-</style>
-</head>
-<body>
-<header>
- <div class="wrap">
-  <div class="kicker">Portfólio profissional · Inteligência Artificial aplicada a negócios</div>
-  <h1>Ana Carla<br>Rio Gaia</h1>
-  <p>Gestão de Tecnologia da Informação, processos administrativos e construção de soluções digitais com apoio de Inteligência Artificial.</p>
-  <div class="tags"><span class="tag">AI Builder · Negócios</span><span class="tag">Gestão de processos</span><span class="tag">Prototipação</span><span class="tag">Melhoria contínua</span></div>
- </div>
-</header>
-<nav><div class="wrap"><a href="#sobre">Sobre</a><a href="#projeto">Projeto em destaque</a><a href="#demonstracao">Demonstração</a><a href="#metodo">Como desenvolvi</a><a href="#contato">Contato</a></div></nav>
+:root{--bg:#0b1220;--panel:#121e30;--ink:#eef4fc;--muted:#aab8ca;--line:#2b3b52;--cyan:#67e3d1;--blue:#83adff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,Arial,sans-serif}a{color:var(--blue);text-decoration:none}.wrap{width:min(1080px,calc(100% - 36px));margin:auto}header{padding:72px 0 55px;background:radial-gradient(ellipse at 85% 10%,#254b76,transparent 38%),linear-gradient(130deg,#142944,#0b1220);border-bottom:1px solid var(--line)}.eyebrow,.num,.label{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}h1{font-size:clamp(40px,7vw,68px);line-height:1.02;letter-spacing:-.04em;margin:16px 0}header p{max-width:760px;color:#c9d6e6;font-size:18px}.tags,.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.tag{border:1px solid #4a607b;border-radius:99px;padding:5px 11px;font-size:12px;color:#dce7f4}.btn{display:inline-block;background:var(--cyan);color:#09202a;padding:10px 15px;border-radius:9px;font-weight:800}.btn.alt{background:transparent;border:1px solid #536a87;color:white}nav{position:sticky;top:0;background:#0b1220ed;border-bottom:1px solid var(--line);z-index:4}nav .wrap{display:flex;gap:22px;overflow:auto;padding:13px 0}nav a{white-space:nowrap;color:#d1deed;font-size:12px;font-weight:800}section{padding:52px 0;border-bottom:1px solid var(--line)}h2{font-size:clamp(26px,4vw,36px);margin:5px 0 8px;letter-spacing:-.03em}.intro{color:var(--muted);max-width:790px;margin:0 0 22px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:15px}.card{grid-column:span 4;background:linear-gradient(145deg,var(--panel),#0e1828);border:1px solid var(--line);border-radius:16px;padding:20px}.half{grid-column:span 6}.wide{grid-column:span 8}.card h3{margin:7px 0;color:#f4f7fc}.card p,.card li{color:var(--muted)}.card ul{padding-left:19px}.status{display:inline-block;border:1px solid #607994;border-radius:99px;padding:3px 9px;font-size:11px;color:#d7e5f6;font-weight:800}.demo{border-color:#8b7442;color:#f0d58d}.panel{background:#0d1929;border:1px solid #344b67;border-radius:16px;padding:20px}.panel label{display:block;font-weight:700;margin:12px 0 5px}input,select,textarea{width:100%;padding:11px;background:#081321;color:white;border:1px solid #40536d;border-radius:8px;font:inherit}textarea{min-height:100px}button{background:var(--cyan);border:0;border-radius:8px;padding:11px 15px;font-weight:800;cursor:pointer;margin-top:12px}.output{display:none;background:#172942;padding:16px;border-radius:10px;margin-top:15px}.small{font-size:12px;color:var(--muted)}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{border-top:2px solid var(--cyan);padding-top:10px}.step p{font-size:13px;color:var(--muted)}footer{padding:28px 0;color:var(--muted);font-size:13px}@media(max-width:700px){.card,.half,.wide{grid-column:span 12}.steps{grid-template-columns:1fr 1fr}}
+</style></head><body>
+<header><div class="wrap"><div class="eyebrow">Portfólio profissional · Tecnologia & Inteligência Artificial</div><h1>Ana Carla<br>Rio Gaia<span style="color:var(--cyan)">.</span></h1><p>Estudante de Gestão da Tecnologia da Informação e profissional com experiência administrativa. Exploro como tecnologia e IA podem ajudar organizações a organizar processos, analisar problemas e construir soluções digitais.</p><div class="actions"><a class="btn" href="#projetos">Explorar projetos ↓</a><a class="btn alt" href="https://github.com/Ana-Carla-Rio" target="_blank" rel="noopener">Meu GitHub ↗</a></div><div class="tags"><span class="tag">AI Builder · Negócios</span><span class="tag">Gestão de TI</span><span class="tag">Processos</span><span class="tag">Prototipação</span></div></div></header>
+<nav><div class="wrap"><a href="#sobre">SOBRE</a><a href="#competencias">COMPETÊNCIAS</a><a href="#projetos">PROJETOS</a><a href="#demo">PROCESSIA DEMO</a><a href="#metodo">MÉTODO</a><a href="#contato">CONTATO</a></div></nav>
 <main class="wrap">
-<section id="sobre">
- <h2 class="section-title">Sobre mim</h2>
- <p class="lead">Sou profissional com experiência em rotinas administrativas e estudante de Tecnologia em Gestão da Tecnologia da Informação no Senac São Paulo. Tenho interesse em aplicar tecnologia e IA para organizar informações, apoiar decisões e tornar processos mais claros e eficientes.</p>
- <div class="grid">
-  <article class="card"><span class="pill">Experiência</span><h3>Visão de processos</h3><p>Vivência com agendas, documentos, controles administrativos, planilhas, atendimento e acompanhamento de rotinas.</p></article>
-  <article class="card"><span class="pill">Formação</span><h3>Gestão de TI</h3><p>Graduação tecnológica em andamento, com interesse em sistemas, análise de processos e soluções digitais.</p></article>
-  <article class="card"><span class="pill">Abordagem</span><h3>IA aplicada</h3><p>Uso de ferramentas de IA para estruturar ideias, explorar alternativas, apoiar estudos e prototipar soluções.</p></article>
- </div>
-</section>
-<section id="projeto">
- <h2 class="section-title">Projeto em destaque</h2>
- <p class="lead">Assistente de IA para Gestão de Processos Administrativos — protótipo conceitual para transformar descrições de problemas em análises organizadas e sugestões de melhoria.</p>
- <div class="notice"><strong>Status transparente:</strong> esta versão é um protótipo demonstrativo com respostas baseadas em regras e modelos de saída. Não está conectada a um modelo de IA, API ou sistema corporativo. A integração com LLM é uma próxima etapa.</div>
- <div class="grid" style="margin-top:16px">
-  <article class="card"><h3>Problema</h3><p>Demandas administrativas chegam em formatos diferentes, dificultando identificar etapas, responsáveis, riscos e oportunidades de melhoria.</p></article>
-  <article class="card"><h3>Proposta</h3><p>Orientar o usuário a descrever um processo e organizar a análise em etapas, gargalos, riscos e ações recomendadas.</p></article>
-  <article class="card"><h3>Usuários</h3><p>Assistentes administrativos, analistas de processos e equipes que precisam documentar ou revisar rotinas.</p></article>
- </div>
-</section>
-<section id="demonstracao">
- <h2 class="section-title">Demonstração do protótipo</h2>
- <p class="lead">Descreva uma situação administrativa. O protótipo gera uma estrutura inicial para apoiar a análise. Revise as sugestões antes de utilizá-las em situações reais.</p>
- <div class="demo">
-  <label for="process">Nome do processo</label><input id="process" placeholder="Ex.: Solicitação e aprovação de compras">
-  <label for="area">Área responsável</label>
-  <select id="area"><option>Administrativo</option><option>Financeiro</option><option>Atendimento</option><option>Operações</option><option>Recursos Humanos</option><option>Outra área</option></select>
-  <label for="problem">Qual problema ou dificuldade acontece?</label>
-  <textarea id="problem" placeholder="Ex.: As solicitações chegam por e-mail e mensagens, não existe um padrão e algumas aprovações ficam esquecidas."></textarea>
-  <button onclick="analyze()">Analisar processo</button>
-  <div class="result" id="result" aria-live="polite"></div>
-  <p class="small">Demonstração local: os dados digitados não são enviados a um servidor. A análise utiliza regras simples no navegador, não IA generativa.</p>
- </div>
-</section>
-<section id="metodo">
- <h2 class="section-title">Como o projeto foi estruturado</h2>
- <div class="steps">
-  <div class="step"><strong>Entendimento do problema</strong><br><span class="small">Identificar a dificuldade operacional e quem é impactado.</span></div>
-  <div class="step"><strong>Organização das informações</strong><br><span class="small">Registrar processo, área, descrição, etapas e pontos de atenção.</span></div>
-  <div class="step"><strong>Geração de recomendações iniciais</strong><br><span class="small">Estruturar oportunidades de padronização, acompanhamento e melhoria.</span></div>
-  <div class="step"><strong>Validação humana</strong><br><span class="small">Conferir contexto, viabilidade, riscos e adequação antes de aplicar qualquer mudança.</span></div>
- </div>
- <div class="card"><h3>Próximas evoluções</h3><p>Integração com um LLM por API; geração de relatório exportável; histórico de análises; definição de indicadores; testes com usuários e avaliação da qualidade das recomendações.</p></div>
-</section>
-<section id="contato">
- <h2 class="section-title">Contato</h2>
- <p class="lead">Ana Carla Rio Gaia · São Paulo – SP</p>
- <p><strong>E-mail:</strong> anacarlariog@gmail.com<br><strong>Telefone:</strong> (11) 94857-8182</p>
-</section>
-</main>
-<footer><div class="wrap"><p><strong>Ana Carla Rio Gaia</strong></p><p class="small" style="color:#c3d0df">Portfólio em desenvolvimento · AI Builder (Negócios)</p></div></footer>
+<section id="sobre"><div class="num">01 / PERFIL</div><h2>Tecnologia com visão de processos.</h2><p class="intro">Minha trajetória combina experiência prática em rotinas administrativas com formação em Tecnologia da Informação. Tenho interesse em aproximar necessidades reais do dia a dia das organizações de soluções digitais simples, úteis e bem estruturadas.</p><div class="grid"><article class="card"><div class="label">Experiência</div><h3>Rotinas administrativas</h3><p>Agendas, documentos, pagamentos, notas fiscais, planilhas, atendimento e suporte operacional.</p></article><article class="card"><div class="label">Formação</div><h3>Gestão de TI</h3><p>Tecnologia em Gestão da Tecnologia da Informação — Senac São Paulo, em andamento.</p></article><article class="card"><div class="label">Interesse</div><h3>IA aplicada a negócios</h3><p>Uso de ferramentas de IA para estudar, estruturar ideias, apoiar análises e prototipar soluções.</p></article></div></section>
+<section id="competencias"><div class="num">02 / COMPETÊNCIAS</div><h2>O que levo para os projetos</h2><p class="intro">Competências desenvolvidas na experiência administrativa, na formação em TI e na experimentação com ferramentas digitais.</p><div class="grid"><article class="card half"><h3>Negócios e processos</h3><ul><li>Organização e documentação de processos</li><li>Identificação de dificuldades operacionais</li><li>Estruturação de informações e requisitos</li><li>Visão de atendimento e experiência do usuário</li></ul></article><article class="card half"><h3>Tecnologia e IA</h3><ul><li>Uso de ChatGPT para estudos, ideação e apoio à prototipação</li><li>Criação de protótipos HTML, CSS e JavaScript com apoio de IA</li><li>Exploração de soluções digitais e fluxos de trabalho</li><li>Interesse em integração de APIs e aplicações de IA</li></ul></article></div></section>
+<section id="projetos"><div class="num">03 / PROJETOS</div><h2>Projetos e experimentos</h2><p class="intro">Projetos acadêmicos e protótipos que demonstram minha forma de pensar problemas, organizar soluções e aprender tecnologias.</p><div class="grid"><article class="card wide"><span class="status demo">Protótipo demonstrativo</span><h3>ProcessIA — Assistente para Gestão de Processos</h3><p>Proposta de ferramenta para organizar problemas administrativos e estruturar hipóteses, pontos de atenção, recomendações iniciais e perguntas de validação.</p><ul><li>Entrada: processo, área e descrição do problema.</li><li>Saída: pontos para investigar, ações sugeridas e perguntas.</li><li>Próxima evolução: integração com modelo de linguagem via API.</li></ul><a href="#demo">Experimentar demonstração ↓</a></article><article class="card"><span class="status">Projeto acadêmico</span><h3>EcoRota</h3><p>Concepção de aplicativo para mapear parques, ciclovias e espaços ao ar livre, com foco em mobilidade sustentável.</p><p class="small">Proposta de valor, funcionalidades e planejamento tecnológico.</p></article><article class="card half"><span class="status">Protótipo / estudo</span><h3>Monitoramento de Processos</h3><p>Interface para registrar processos, classificar tipo, identificar setor responsável e apoiar o acompanhamento de informações.</p></article><article class="card half"><span class="status">Em evolução</span><h3>Experimentos futuros com IA</h3><p>Integração de LLMs por API, prompts estruturados, avaliação de respostas e boas práticas de proteção de dados.</p></article></div></section>
+<section id="demo"><div class="num">04 / DEMONSTRAÇÃO INTERATIVA</div><h2>Experimente o ProcessIA</h2><p class="intro">Descreva um problema de processo e veja uma estrutura inicial para orientar a investigação. Esta demonstração usa regras locais, não um modelo generativo.</p><div class="panel"><label for="proc">Nome do processo</label><input id="proc" placeholder="Ex.: Solicitação e aprovação de compras"><label for="area">Área responsável</label><select id="area"><option>Administrativo</option><option>Financeiro</option><option>Atendimento</option><option>Operações</option><option>Recursos Humanos</option><option>Outra área</option></select><label for="issue">Descreva o problema observado</label><textarea id="issue" placeholder="Ex.: As solicitações chegam por e-mail e mensagens e algumas aprovações ficam esquecidas."></textarea><button onclick="runDemo()">Gerar estrutura de análise</button><div class="output" id="out" aria-live="polite"></div><p class="small">Privacidade: a demonstração roda no navegador. O texto digitado não é enviado a um servidor. Não insira dados pessoais ou confidenciais.</p></div></section>
+<section id="metodo"><div class="num">05 / ABORDAGEM</div><h2>Da necessidade à solução</h2><p class="intro">Entender antes de automatizar, validar antes de recomendar e documentar as limitações.</p><div class="steps"><div class="step"><b>01 · Entender</b><p>Identificar quem enfrenta o problema e quais impactos existem.</p></div><div class="step"><b>02 · Estruturar</b><p>Organizar etapas, responsáveis, entradas e saídas.</p></div><div class="step"><b>03 · Prototipar</b><p>Construir uma demonstração e testar cenários fictícios.</p></div><div class="step"><b>04 · Validar</b><p>Revisar hipóteses com pessoas envolvidas antes de aplicar mudanças.</p></div></div><article class="card" style="margin-top:18px;grid-column:auto"><h3>Transparência e próximos passos</h3><p>O ProcessIA ainda não está conectado a uma API de IA nem implantado em produção. As recomendações atuais são heurísticas demonstrativas e não substituem análise humana. Próximas etapas: integração segura com LLM, testes com cenários anonimizados e avaliação da qualidade das respostas.</p></article></section>
+<section id="contato"><div class="num">06 / CONTATO</div><h2>Vamos conversar?</h2><p class="intro">Ana Carla Rio Gaia · São Paulo – SP</p><div class="grid"><article class="card half"><h3>Contato</h3><p><a href="mailto:anacarlariog@gmail.com">anacarlariog@gmail.com</a><br>(11) 94857-8182</p></article><article class="card half"><h3>GitHub</h3><p>Projetos, estudos e evolução técnica.</p><a href="https://github.com/Ana-Carla-Rio" target="_blank" rel="noopener">github.com/Ana-Carla-Rio ↗</a></article></div></section>
+</main><footer><div class="wrap">© 2026 Ana Carla Rio Gaia · Portfólio em desenvolvimento · Projetos e competências apresentados com transparência.</div></footer>
 <script>
-function analyze(){
- const name=document.getElementById('process').value.trim()||'Processo informado';
- const area=document.getElementById('area').value;
- const problem=document.getElementById('problem').value.trim();
- const box=document.getElementById('result');
- if(!problem){box.style.display='block';box.innerHTML='<h3>Falta uma informação</h3><p>Descreva o problema para gerar a análise inicial.</p>';return;}
- const t=problem.toLowerCase();
- let causes=['Ausência de padrão para registrar solicitações','Falta de clareza sobre responsáveis e prazos','Acompanhamento manual ou disperso das informações'];
- if(t.includes('e-mail')||t.includes('mensagem')||t.includes('whatsapp')) causes[0]='Solicitações distribuídas em diferentes canais, sem registro centralizado';
- if(t.includes('demora')||t.includes('atras')) causes[1]='Possível gargalo em etapas de aprovação ou dependência de terceiros';
- if(t.includes('erro')||t.includes('duplic')) causes[2]='Risco de inconsistência, retrabalho ou duplicidade de registros';
- box.style.display='block';
- box.innerHTML=`<h3>Análise inicial: ${escapeHtml(name)}</h3>
- <p><strong>Área:</strong> ${escapeHtml(area)}</p>
- <p><strong>Problema registrado:</strong> ${escapeHtml(problem)}</p>
- <p><strong>Pontos para investigar</strong></p><ul>${causes.map(x=>'<li>'+x+'</li>').join('')}</ul>
- <p><strong>Ações recomendadas</strong></p><ul><li>Definir um canal ou formulário padrão de entrada.</li><li>Registrar responsável, data de abertura, prazo e status.</li><li>Estabelecer critérios claros de aprovação e escalonamento.</li><li>Acompanhar indicadores como tempo médio de conclusão, volume pendente e retrabalho.</li></ul>
- <p><strong>Perguntas para validação</strong></p><ul><li>Quem solicita, analisa e aprova?</li><li>Quais etapas geram maior espera ou retrabalho?</li><li>Quais dados são necessários para acompanhar o processo?</li></ul>
- <p class="small"><strong>Limite:</strong> esta é uma estrutura heurística demonstrativa, não uma conclusão automatizada por IA. Valide as hipóteses com as pessoas envolvidas.</p>`;
-}
-function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-</script>
-</body></html>
+function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function runDemo(){let n=document.getElementById('proc').value.trim()||'Processo informado',a=document.getElementById('area').value,i=document.getElementById('issue').value.trim(),o=document.getElementById('out');if(!i){o.style.display='block';o.innerHTML='<h3>Descreva o problema</h3><p>Inclua uma breve descrição para gerar a estrutura.</p>';return;}let t=i.toLowerCase(),p=['Pode faltar um padrão único para registrar solicitações.','Responsáveis, prazos ou critérios de aprovação podem não estar claros.','O acompanhamento pode depender de controles manuais ou informações dispersas.'];if(/e-mail|email|mensagem|whatsapp|canal/.test(t))p[0]='As solicitações podem estar distribuídas em diferentes canais, sem registro centralizado.';if(/demora|atras|espera|pendente/.test(t))p[1]='Pode existir espera entre etapas, aprovações ou dependência de terceiros.';if(/erro|duplic|retrabalho|perda/.test(t))p[2]='Há indícios a investigar de inconsistência, duplicidade ou retrabalho.';o.style.display='block';o.innerHTML=`<h3>Análise inicial · ${esc(n)}</h3><p><b>Área:</b> ${esc(a)}</p><p><b>Problema:</b> ${esc(i)}</p><h4>Pontos para investigar</h4><ul>${p.map(x=>'<li>'+x+'</li>').join('')}</ul><h4>Ações que podem ser avaliadas</h4><ul><li>Definir canal e formulário padrão.</li><li>Registrar responsável, data, prazo e status.</li><li>Documentar critérios de aprovação.</li><li>Acompanhar tempo de conclusão, pendências e retrabalho.</li></ul><h4>Perguntas para validação</h4><ul><li>Quem solicita, analisa e aprova?</li><li>Em qual etapa ocorre maior espera?</li><li>Quais dados são necessários para acompanhar o processo?</li></ul><p class="small"><b>Nota:</b> saída gerada por regras simples no navegador, não por IA generativa. Valide as hipóteses com as pessoas envolvidas.</p>`;}
+</script></body></html>
