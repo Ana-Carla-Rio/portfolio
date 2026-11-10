@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfólio | Ana Carla Rio Gaia</title>
+<style>
+:root{--bg:#f4f6fa;--ink:#182536;--muted:#657386;--navy:#142b45;--blue:#2867d8;--line:#dce3ec;--white:#fff;--mint:#e9f7f1;--gold:#f3c969}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(120deg,#10243a,#1c4268);color:#fff;padding:54px 22px 42px}
+.wrap{max-width:1060px;margin:auto;padding:0 22px}
+.kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:#b8c9df;font-weight:700}
+h1{font-size:clamp(32px,6vw,54px);line-height:1.05;margin:14px 0}
+header p{max-width:700px;color:#dce7f3;font-size:18px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.tag{border:1px solid #58708b;border-radius:30px;padding:6px 12px;font-size:13px;color:#e7eef7}
+nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:2}
+nav .wrap{display:flex;gap:22px;overflow:auto;padding-top:12px;padding-bottom:12px}
+nav a{color:var(--navy);text-decoration:none;font-size:14px;font-weight:650;white-space:nowrap}
+section{padding:34px 0}.section-title{font-size:25px;margin:0 0 8px;color:var(--navy)}
+.lead{color:var(--muted);margin:0 0 22px;max-width:780px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 5px 18px #152a4210}
+.card h3{margin:0 0 8px;color:var(--navy);font-size:18px}.card p{margin:0;color:var(--muted)}
+.pill{display:inline-block;background:#edf3ff;color:#2457a5;padding:4px 9px;border-radius:20px;font-size:12px;font-weight:700;margin-bottom:12px}
+.notice{border-left:4px solid var(--gold);background:#fff9e9;padding:14px 16px;border-radius:8px;color:#5d4b21}
+.demo{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;max-width:800px}
+label{display:block;font-weight:700;margin:13px 0 6px}
+input,select,textarea{width:100%;border:1px solid #cbd5e1;border-radius:10px;padding:12px;font:inherit;background:#fff;color:var(--ink)}
+textarea{min-height:100px;resize:vertical}
+button{background:var(--blue);color:#fff;border:0;border-radius:10px;padding:12px 18px;font-weight:750;font-size:15px;cursor:pointer;margin-top:14px}
+button:hover{filter:brightness(.94)}
+.result{margin-top:18px;background:#f2f6fc;border:1px solid #d7e3f5;border-radius:12px;padding:18px;display:none}
+.result h3{margin-top:0;color:var(--navy)}.result ul{padding-left:20px}
+.small{font-size:13px;color:var(--muted)}
+.steps{counter-reset:n}.step{position:relative;padding-left:42px;margin:14px 0}.step:before{counter-increment:n;content:counter(n);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:#eaf1ff;color:#2457a5;display:grid;place-items:center;font-weight:800}
+footer{background:#10243a;color:#dce7f3;padding:26px 0;margin-top:20px}footer p{margin:4px 0}
+a.buttonlink{display:inline-block;margin-top:12px;color:#fff;background:#2867d8;padding:10px 14px;border-radius:9px;text-decoration:none;font-weight:700}
+@media(max-width:600px){header{padding:40px 0 32px}.demo{padding:16px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <div class="kicker">Portfólio profissional · Inteligência Artificial aplicada a negócios</div>
+  <h1>Ana Carla<br>Rio Gaia</h1>
+  <p>Gestão de Tecnologia da Informação, processos administrativos e construção de soluções digitais com apoio de Inteligência Artificial.</p>
+  <div class="tags"><span class="tag">AI Builder · Negócios</span><span class="tag">Gestão de processos</span><span class="tag">Prototipação</span><span class="tag">Melhoria contínua</span></div>
+ </div>
+</header>
+<nav><div class="wrap"><a href="#sobre">Sobre</a><a href="#projeto">Projeto em destaque</a><a href="#demonstracao">Demonstração</a><a href="#metodo">Como desenvolvi</a><a href="#contato">Contato</a></div></nav>
+<main class="wrap">
+<section id="sobre">
+ <h2 class="section-title">Sobre mim</h2>
+ <p class="lead">Sou profissional com experiência em rotinas administrativas e estudante de Tecnologia em Gestão da Tecnologia da Informação no Senac São Paulo. Tenho interesse em aplicar tecnologia e IA para organizar informações, apoiar decisões e tornar processos mais claros e eficientes.</p>
+ <div class="grid">
+  <article class="card"><span class="pill">Experiência</span><h3>Visão de processos</h3><p>Vivência com agendas, documentos, controles administrativos, planilhas, atendimento e acompanhamento de rotinas.</p></article>
+  <article class="card"><span class="pill">Formação</span><h3>Gestão de TI</h3><p>Graduação tecnológica em andamento, com interesse em sistemas, análise de processos e soluções digitais.</p></article>
+  <article class="card"><span class="pill">Abordagem</span><h3>IA aplicada</h3><p>Uso de ferramentas de IA para estruturar ideias, explorar alternativas, apoiar estudos e prototipar soluções.</p></article>
+ </div>
+</section>
+<section id="projeto">
+ <h2 class="section-title">Projeto em destaque</h2>
+ <p class="lead">Assistente de IA para Gestão de Processos Administrativos — protótipo conceitual para transformar descrições de problemas em análises organizadas e sugestões de melhoria.</p>
+ <div class="notice"><strong>Status transparente:</strong> esta versão é um protótipo demonstrativo com respostas baseadas em regras e modelos de saída. Não está conectada a um modelo de IA, API ou sistema corporativo. A integração com LLM é uma próxima etapa.</div>
+ <div class="grid" style="margin-top:16px">
+  <article class="card"><h3>Problema</h3><p>Demandas administrativas chegam em formatos diferentes, dificultando identificar etapas, responsáveis, riscos e oportunidades de melhoria.</p></article>
+  <article class="card"><h3>Proposta</h3><p>Orientar o usuário a descrever um processo e organizar a análise em etapas, gargalos, riscos e ações recomendadas.</p></article>
+  <article class="card"><h3>Usuários</h3><p>Assistentes administrativos, analistas de processos e equipes que precisam documentar ou revisar rotinas.</p></article>
+ </div>
+</section>
+<section id="demonstracao">
+ <h2 class="section-title">Demonstração do protótipo</h2>
+ <p class="lead">Descreva uma situação administrativa. O protótipo gera uma estrutura inicial para apoiar a análise. Revise as sugestões antes de utilizá-las em situações reais.</p>
+ <div class="demo">
+  <label for="process">Nome do processo</label><input id="process" placeholder="Ex.: Solicitação e aprovação de compras">
+  <label for="area">Área responsável</label>
+  <select id="area"><option>Administrativo</option><option>Financeiro</option><option>Atendimento</option><option>Operações</option><option>Recursos Humanos</option><option>Outra área</option></select>
+  <label for="problem">Qual problema ou dificuldade acontece?</label>
+  <textarea id="problem" placeholder="Ex.: As solicitações chegam por e-mail e mensagens, não existe um padrão e algumas aprovações ficam esquecidas."></textarea>
+  <button onclick="analyze()">Analisar processo</button>
+  <div class="result" id="result" aria-live="polite"></div>
+  <p class="small">Demonstração local: os dados digitados não são enviados a um servidor. A análise utiliza regras simples no navegador, não IA generativa.</p>
+ </div>
+</section>
+<section id="metodo">
+ <h2 class="section-title">Como o projeto foi estruturado</h2>
+ <div class="steps">
+  <div class="step"><strong>Entendimento do problema</strong><br><span class="small">Identificar a dificuldade operacional e quem é impactado.</span></div>
+  <div class="step"><strong>Organização das informações</strong><br><span class="small">Registrar processo, área, descrição, etapas e pontos de atenção.</span></div>
+  <div class="step"><strong>Geração de recomendações iniciais</strong><br><span class="small">Estruturar oportunidades de padronização, acompanhamento e melhoria.</span></div>
+  <div class="step"><strong>Validação humana</strong><br><span class="small">Conferir contexto, viabilidade, riscos e adequação antes de aplicar qualquer mudança.</span></div>
+ </div>
+ <div class="card"><h3>Próximas evoluções</h3><p>Integração com um LLM por API; geração de relatório exportável; histórico de análises; definição de indicadores; testes com usuários e avaliação da qualidade das recomendações.</p></div>
+</section>
+<section id="contato">
+ <h2 class="section-title">Contato</h2>
+ <p class="lead">Ana Carla Rio Gaia · São Paulo – SP</p>
+ <p><strong>E-mail:</strong> anacarlariog@gmail.com<br><strong>Telefone:</strong> (11) 94857-8182</p>
+</section>
+</main>
+<footer><div class="wrap"><p><strong>Ana Carla Rio Gaia</strong></p><p class="small" style="color:#c3d0df">Portfólio em desenvolvimento · AI Builder (Negócios)</p></div></footer>
+<script>
+function analyze(){
+ const name=document.getElementById('process').value.trim()||'Processo informado';
+ const area=document.getElementById('area').value;
+ const problem=document.getElementById('problem').value.trim();
+ const box=document.getElementById('result');
+ if(!problem){box.style.display='block';box.innerHTML='<h3>Falta uma informação</h3><p>Descreva o problema para gerar a análise inicial.</p>';return;}
+ const t=problem.toLowerCase();
+ let causes=['Ausência de padrão para registrar solicitações','Falta de clareza sobre responsáveis e prazos','Acompanhamento manual ou disperso das informações'];
+ if(t.includes('e-mail')||t.includes('mensagem')||t.includes('whatsapp')) causes[0]='Solicitações distribuídas em diferentes canais, sem registro centralizado';
+ if(t.includes('demora')||t.includes('atras')) causes[1]='Possível gargalo em etapas de aprovação ou dependência de terceiros';
+ if(t.includes('erro')||t.includes('duplic')) causes[2]='Risco de inconsistência, retrabalho ou duplicidade de registros';
+ box.style.display='block';
+ box.innerHTML=`<h3>Análise inicial: ${escapeHtml(name)}</h3>
+ <p><strong>Área:</strong> ${escapeHtml(area)}</p>
+ <p><strong>Problema registrado:</strong> ${escapeHtml(problem)}</p>
+ <p><strong>Pontos para investigar</strong></p><ul>${causes.map(x=>'<li>'+x+'</li>').join('')}</ul>
+ <p><strong>Ações recomendadas</strong></p><ul><li>Definir um canal ou formulário padrão de entrada.</li><li>Registrar responsável, data de abertura, prazo e status.</li><li>Estabelecer critérios claros de aprovação e escalonamento.</li><li>Acompanhar indicadores como tempo médio de conclusão, volume pendente e retrabalho.</li></ul>
+ <p><strong>Perguntas para validação</strong></p><ul><li>Quem solicita, analisa e aprova?</li><li>Quais etapas geram maior espera ou retrabalho?</li><li>Quais dados são necessários para acompanhar o processo?</li></ul>
+ <p class="small"><strong>Limite:</strong> esta é uma estrutura heurística demonstrativa, não uma conclusão automatizada por IA. Valide as hipóteses com as pessoas envolvidas.</p>`;
+}
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+</script>
+</body></html>
